@@ -1,0 +1,14 @@
+.nav {
+  border: none;
+  padding: 0;
+ 
+}
+.nav_link_wrapper {
+  display: flex;
+  list-style-type: none;
+  font-weight: 500;
+  justify-content: center;
+  gap: 2rem;
+  cursor: pointer;
+  width: fit-content;
+}

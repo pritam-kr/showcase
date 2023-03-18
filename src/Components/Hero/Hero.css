@@ -1,0 +1,61 @@
+.hero_section {
+  min-height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem 2rem 2rem 2rem !important;
+}
+
+.hi_text {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.title {
+  text-transform: none;
+}
+.bio {
+  margin: 1.5rem 0;
+  max-width: 650px;
+  font-size: 19px;
+}
+.hero_scoial_icon {
+  display: flex;
+  gap: 10px;
+  margin-top: 4rem !important;
+}
+.btn_link {
+  border-radius: 15px;
+  font-weight: 400;
+  color: var(--text-color);
+  border-color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.btn_link:hover {
+  border-color: var(--primary-color);
+}
+.email {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+.skills_wrapper {
+  margin: 1.5rem 0;
+  display: flex;
+ flex-wrap: wrap;
+ gap: 10px;
+ justify-content: flex-start;
+}
+.skills{
+    cursor: pointer;
+    list-style: none;
+    width: fit-content;
+    opacity: .7;
+}
+.skills:hover{
+    color: var(--primary-color);
+}
