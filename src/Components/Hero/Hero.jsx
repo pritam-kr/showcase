@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { SOCIAL_LINKS, SKILLS } from "../constant";
 import "./Hero.css";
 
 const Hero = () => {
+
+
+
   return (
     <div className="common_padding hero_section">
       <div className="hero_section_content">

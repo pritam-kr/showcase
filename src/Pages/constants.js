@@ -6,7 +6,7 @@ export const PROJECTS = [
     description:
       "Playme app is designed to provide developers with a comprehensive collection of programming tutorials. It offers a vast library of videos covering various programming languages, frameworks, and tools. The app provides a simple, intuitive interface that allows users to search for tutorials based on their interests and skill level.",
     img: "https://res.cloudinary.com/dhqxln7zi/image/upload/v1648835082/Home_d3wnoi.png",
-    stack: ["ReactJs", "CSS", "JavaScript", "MockBee"],
+    stack: ["ReactJs", "CSS", "JavaScript", "Mockbee"],
     github_icon: <FaIcons.FaGithub />,
     link_icon: <FaIcons.FaLink />,
     github_link: "https://github.com/pritam-kr/playme",
@@ -17,7 +17,7 @@ export const PROJECTS = [
     description:
       "Like is a social media app designed to connect people from all over the world. It is a platform that allows users to share their experiences, opinions, and interests with others in a fun and interactive way.",
     img: "https://res.cloudinary.com/dhqxln7zi/image/upload/v1679163190/Screenshot_2023-03-18_234159_qj2ams.png",
-    stack: ["ReactJs", "CSS", "JavaScript", "MockBee"],
+    stack: ["ReactJs", "Tailwind CSS", "JavaScript", "Mockbee"],
     github_icon: <FaIcons.FaGithub />,
     link_icon: <FaIcons.FaLink />,
     github_link: "https://github.com/pritam-kr/like",
@@ -28,7 +28,7 @@ export const PROJECTS = [
     description:
       "Pearl is a jewelry app designed for individuals who appreciate high-quality, platinum jeweleries. This app is a virtual marketplace for platinum jewelry, where users can browse and purchase platinum jewelry of different shapes, sizes, and colors.",
     img: "https://res.cloudinary.com/dhqxln7zi/image/upload/v1679163874/Screenshot_2023-03-18_235419_zjkjix.png",
-    stack: ["ReactJs", "CSS", "JavaScript", "MockBee"],
+    stack: ["ReactJs", "CSS", "JavaScript", "Mockbee"],
     github_icon: <FaIcons.FaGithub />,
     link_icon: <FaIcons.FaLink />,
     github_link: "https://github.com/pritam-kr/Pearl",
@@ -56,5 +56,16 @@ export const PROJECTS = [
     link_icon: <FaIcons.FaLink />,
     github_link: "https://github.com/pritam-kr/RecipeApp",
     live_link: "https://recipe-by-country-name.netlify.app/",
+  },
+  {
+    title: "Quizzie - A quiz app.",
+    description:
+      "Quizzie is a quiz app designed to offer a fun and interactive way to test and enhance your knowledge on various topics for fun.",
+    img: "https://res.cloudinary.com/dhqxln7zi/image/upload/v1679246503/Screenshot_2023-03-19_224726.png",
+    stack: ["TypeScript", "ReactJs", "Firebase", "CSS"],
+    github_icon: <FaIcons.FaGithub />,
+    link_icon: <FaIcons.FaLink />,
+    github_link: "https://github.com/pritam-kr/quizzie",
+    live_link: "https://quizzie-code-by-pritam.netlify.app/",
   },
 ];

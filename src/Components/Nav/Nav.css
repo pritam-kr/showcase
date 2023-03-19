@@ -1,7 +1,6 @@
 .nav {
   border: none;
   padding: 0;
- 
 }
 .nav_link_wrapper {
   display: flex;
@@ -11,4 +10,10 @@
   gap: 2rem;
   cursor: pointer;
   width: fit-content;
+}
+
+@media screen and (max-width: 867px) {
+  .nav-right {
+    display: flex !important;
+  }
 }

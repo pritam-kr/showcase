@@ -1,5 +1,6 @@
 import React from "react";
 import "./Nav.css";
+import * as FaIcons from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -9,10 +10,23 @@ const Nav = () => {
       </div>
 
       <div className="nav-right">
-        <ul className="type-buttet text-lg unordered-list nav_link_wrapper">
+        <button
+          className="btn btn-primary btn_link"
+          style={{ color: "#fff" }}
+          onClick={() =>
+            window.open(
+              "https://drive.google.com/file/d/1HmcMPmlfXbJ73A_Ie3Iu-BLyIMPvKS2Q/view?usp=sharing",
+              "_blank"
+            )
+          }
+        >
+          <FaIcons.FaRegNewspaper />
+          Resume
+        </button>
+        {/* <ul className="type-buttet text-lg unordered-list nav_link_wrapper">
           <li>Projects</li>
           <li>Blogs</li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );
