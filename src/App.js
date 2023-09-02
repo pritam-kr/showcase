@@ -1,7 +1,6 @@
-import './App.css';
-import { Nav, Hero } from './Components';
-import { Projects } from './Pages';
-
+import "./App.css";
+import { Nav, Hero } from "./Components";
+import { Projects } from "./Pages";
 
 function App() {
   return (
@@ -9,7 +8,6 @@ function App() {
       <Nav />
       <Hero />
       <Projects />
-      
     </div>
   );
 }
