@@ -2,6 +2,18 @@ import * as FaIcons from "react-icons/fa";
 
 export const PROJECTS = [
   {
+    title: "Earth - AQI and weather visualization app",
+    description:
+      "Earth is a dynamic web application that empowers users to access real-time Air Quality Index (AQI) and weather information for any location worldwide. Users can effortlessly explore AQI levels and current weather conditions with an intuitive map-based interface.",
+    img: "https://res.cloudinary.com/dhqxln7zi/image/upload/v1695541046/Screenshot_2023-09-24_at_1.07.07_PM_ez6ubb.png",
+    stack: ["ReactJs",  "JavaScript", "Maplibre-gl-js", "React-query"],
+    github_icon: <FaIcons.FaGithub />,
+    link_icon: <FaIcons.FaLink />,
+    github_link: "https://github.com/pritam-kr/Earth",
+    live_link: "https://earth-by-pritam.netlify.app/",
+  },
+
+  {
     title: "Playme - A video library.",
     description:
       "Playme app is designed to provide developers with a comprehensive collection of programming tutorials. It offers a vast library of videos covering various programming languages, frameworks, and tools. The app provides a simple, intuitive interface that allows users to search for tutorials based on their interests and skill level.",

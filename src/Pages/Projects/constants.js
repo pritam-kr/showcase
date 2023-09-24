@@ -8,5 +8,5 @@ export const OPTIONS = [
   "TypeScript",
   "Tailwind CSS",
   "Firebase",
-  "D3.js"
+  "Maplibre-gl-js"
 ];
