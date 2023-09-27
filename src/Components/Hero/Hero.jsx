@@ -18,14 +18,13 @@ const Hero = () => {
         <h2 className="text-h3 title">My experince</h2>
         <p className="paragraph text-left bio text-md">
           Front-end developer at{" "}
-          <span className="highlight_text">Ringover</span>, with primary focus
-          on ReactJs, JavaScript, React Query, As a frontend developer
-          responsbility to Build user interface and impliment various features.
-          <br/>
-          I closely work with Backend developers to Implement APIs into
-          Frontend. One of my notable achievements at Ringover was leading the
-          integration of ZOHO and Bullhorn CRM into our tool And worked on Email
-          template generation using Open AI API.{" "}
+          <span className="highlight_text">Ringover</span>, with a primary
+          focus on ReactJs, JavaScript, and React Query. As a front-end
+          developer, I am responsible for building user interfaces and impliment
+          various features. <br /> I closely work with Backend developers to
+          Implement APIs into Frontend. One of my notable achievements at
+          Ringover was leading the integration of ZOHO and Bullhorn CRM into our
+          tool And working on Email template generation using Open AI API.
           <span className="grey-text duration ">
             {" "}
             19th September 2022 - Present
